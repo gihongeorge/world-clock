@@ -1,9 +1,10 @@
 body {
-    background-color: #f9f7fe;
+    background-color: #1c3b59;
     font-family: sans-serif;
-}
+}   
 
 h1 {
+    color:rgb(219, 179, 129);
     text-align: center;
 }
 
@@ -23,13 +24,14 @@ select {
 .container {
     max-width: 600px;
     margin: 60px auto;
-    background: white;
+    background: rgb(174, 204, 240);
     padding: 30px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.4); /* Removed space after 'rgba' */
     border-radius: 10px;
 }
 
 .city {
+    color:rgb(44, 44, 159);
     display: flex;
     margin: 20px 0;
     justify-content: space-between;
@@ -58,6 +60,6 @@ select {
 
 footer {
     text-align: center;
-    font-size: 10px;
-    color: rgba(0, 0, 0, 0.8); /* Removed space after 'rgba' */
+    font-size: 15px;
+    color: rgba(206, 206, 212, 0.8); /* Removed space after 'rgba' */
 }
